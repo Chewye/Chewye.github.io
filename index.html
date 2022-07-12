@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Aleo:300,300italic,regular,italic,700,700italic&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Magra:regular,700&display=swap" rel="stylesheet" />    
+    <title>Travel</title>    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="shortcut icon" href="./images/Vector.svg" type="image/x-icon">     
+</head>
+<body>
+    <div class="background _container">
+        <div class="bg _container">
+            <img srcset="./images/background.jpg 1440w,
+                        ./images/bg_mobile.jpg 390w"
+            sizes="(max-width: 740px) 390px, 1440px"
+            alt="background">
+        </div>
+        <div class="bgbot _container">
+            <img srcset="./images/backgroundBot.jpg 1442w,
+                        ./images/bgbot_mobile.jpg 390w"
+            sizes="(max-width: 740px) 390px, 1442px"
+            alt="background-bottom">
+            <div class="blur"></div>
+        </div>
+    </div> 
+    <div class="wrapper">
+        <header class="header">
+            <div class="headerContainer _container">
+                <div class="headerImage">
+                    <img src="./images/Vector.svg" alt="logo">
+                </div>                
+                <span class="headerText">
+                    Travel Portal
+                </span>
+                <nav class="headerMenu menu">
+                    <ul class="menuList">
+                        <li class="menuItem">
+                            <a href="#how" class="menuLink">How It Works</a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#plan" class="menuLink">Plan Your Trip</a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#destin" class="menuLink">Destinations</a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#travel" class="menuLink">Travel Stories</a>
+                        </li>
+                    </ul>
+                </nav>                
+                <button class="headerLogin">
+                    Login
+                </button>
+                <div class="burger">
+                    <button onclick="clickBurger()" class="headerBurger">
+                        <img src="./images/burger.svg" alt="burger">
+                        <img src="./images/burger.svg" alt="burger">
+                        <img src="./images/burger.svg" alt="burger">
+                    </button>
+                        <div id="myDrop" class="dropContent">
+                            <a href="#how" class="menuLink">How It Works</a>
+                            <a href="#plan" class="menuLink">Plan Your Trip</a>
+                            <a href="#destin" class="menuLink">Destinations</a>
+                            <a href="#travel" class="menuLink">Travel Stories</a>
+                        </div>
+                </div>                
+            </div>
+        </header>
+        <main class="main">
+            <div class="mainContainer _container">
+                <section class="searchMain">
+                    <h1 id="how">
+                        Explore the beauty of the World
+                    </h1>
+                    <span class="textsearchMain">
+                        Receive personalized recommendations for countries, hotels, activities and more
+                    </span>
+                    <div class="searchBlock">
+                        <span class="textsearch">
+                            What would you like to do?
+                        </span>
+                        <div class="buttonPos">
+                            <button class="button">
+                                    Start Planning                       
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="steps _container">
+                    <h2 id="plan">
+                        3 STEPS TO THE PERFECT TRIP
+                    </h2>
+                    <div class="step3">
+                        <div class="stepBlock margStep1">
+                            <div class="stepIMG">
+                                <img src="./images/step1.svg" alt="step1">
+                            </div>
+                            <span class="spanCenter">
+                                Tell us what you want to do
+                            </span>                            
+                        </div>
+                        <div class="stepBlock margStep2">
+                            <div class="stepIMG">
+                                <img src="./images/step2.svg" alt="step2">
+                            </div>
+                            <span class="spanCenter">
+                                Share us preferable dates 
+                            </span>                            
+                        </div>
+                        <div class="stepBlock">
+                            <div class="stepIMG">
+                                <img src="./images/step3.svg" alt="step3">
+                            </div>
+                            <span class="spanCenter">
+                                We will give you recommendations
+                            </span>                            
+                        </div>
+                    </div>
+                    <div class="step3_text">
+                        <div class="stepTextPos1">
+                            Tell us what you want to do
+                        </div>
+                        <div class="stepTextPos2">
+                            Share us preferable dates 
+                        </div>
+                        <div class="stepTextPos3">
+                            We will give you recommendations 
+                        </div>
+                    </div>
+                </section>
+                <section class="destinationSec">
+                    <h2 id="destin" class="h2center">
+                        POPULAR DESTINATIONS
+                    </h2>
+                    <div class="containerSlider">
+                        <ul class="slider">
+                            <li class="sliderItem">
+                                <img srcset="./images/SPAIN.jpg.jpg 800w,
+                                ./images/spain_mobile.jpg 360w"
+                                 alt="SPAIN"                                 
+                                sizes="(max-width: 1020px) 800w,
+                                (max-width: 740px) 360w">
+                                <!-- <img src="./images/SPAIN.jpg.jpg" alt="SPAIN"> -->
+                                <div class="textImg">SPAIN</div>
+                            </li>
+                            <li class="sliderItem">
+                                <img srcset="./images/JAPAN.jpg 800w,
+                                            ./images/japan_mobile.jpg 360w"
+                                sizes="(max-width: 1020px) 800w, 
+                                alt="SPAIN"
+                                 srcset="./images/JAPAN.jpg 800w,
+                                        ./images/japan_mobile.jpg 360w"
+                                sizes="(max-width: 1020px) 800w,
+                                (max-width: 740px) 360w">                                
+                                <!-- <img src="./images/JAPAN.jpg" alt="JAPAN"> -->
+                                <div class="textImg">JAPAN</d>
+                            </li>
+                            <li class="sliderItem">
+                                <img src="./images/USA.jpg" alt="USA">
+                                <div class="textImg">USA</div>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="arrow">
+                        <div class="arrowBack">
+                            <img src="./images/ep_arrow-up-bold.svg" alt="arrow">
+                        </div> 
+                        <div class="arrowForward">
+                            <img src="./images/ep_arrow-up-bold.svg" alt="arrow">
+                        </div>  
+                    </div>                 
+                    <div class="step3Scroll">
+                        <img src="./images/Ellipse2.svg" alt="Eclipse" class="mob">
+                        <img src="./images/Ellipse1.svg" alt="Eclipse" class="mob">
+                        <img src="./images/Ellipse1.svg" alt="Eclipse" class="desc">
+                        <img src="./images/Ellipse2.svg" alt="Eclipse" class="desc">
+                        <img src="./images/Ellipse3.svg" alt="Eclipse">
+                    </div>
+                    <button class="button butCenter">
+                        <div class="buttonIMG">
+                            <img src="./images/bi_arrow-right.svg" alt="arrow">
+                        </div>
+                            Find More                       
+                    </button>    
+                </section>
+                <section class="travelStories">
+                    <h2 id="travel" class="margTravel">
+                        TRAVEL STORIES
+                    </h2>                        
+                    <div class="stories">                     
+                        <img srcset="./images/Rectangle15.jpg 400w,
+                                    ./images/Rectangle_15.jpg 155w"
+                            sizes="(max-width: 1020px) 155px,
+                                    (max-width: 1470px) 280px,                                    
+                                     400px"
+                            alt="photo" class="storyIMG">
+                        <div class="storyTextBlock">
+                            <div class="storyHead">
+                                10 Photos of Attractive Thailand
+                            </div>
+                            <div class="storyTextstyle">
+                                <span class="storyText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                                </span>
+                                <span class="storyTextlow">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... 
+                                </span>
+                                <span class="readMore">
+                                    Read More
+                                </span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="stories">                        
+                        <img srcset="./images/Rectangle16.jpg 400w,
+                                    ./images/Rectangle_16.jpg 155w"
+                            sizes="(max-width: 1020px) 155px,
+                                    (max-width: 1470px) 280px,                                    
+                                     400px"
+                            alt="photo" class="storyIMG">
+                        <div class="storyTextBlock">
+                            <div class="storyHead">
+                                Canyonlands National Park, Utah
+                            </div>
+                            <div class="storyTextstyle">
+                                <span class="storyText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                                </span>
+                                <span class="storyTextlow">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... 
+                                </span>
+                                <span class="readMore">
+                                    Read More
+                                </span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="stories">                        
+                        <img srcset="./images/Rectangle17.jpg 400w,
+                                    ./images/Rectangle_27.jpg 155w"
+                            sizes="(max-width: 1020px) 155px,
+                                    (max-width: 1470px) 280px,                                    
+                                     400px"
+                            alt="photo" class="storyIMG">
+                        <div class="storyTextBlock">
+                            <div class="storyHead">
+                                I left my heart in the Mountains!
+                            </div>
+                            <div class="storyTextstyle">
+                                <span class="storyText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                                </span>
+                                <span class="storyTextlow">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... 
+                                </span>
+                                <span class="readMore">
+                                    Read More
+                                </span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="stories">                        
+                        <img srcset="./images/Rectangle18.jpg 400w,
+                                    ./images/Rectangle_17.jpg 155w"
+                            sizes="(max-width: 1020px) 155px,
+                                    (max-width: 1470px) 280px,                                    
+                                     400px"
+                            alt="photo" class="storyIMG">
+                        <div class="storyTextBlock">
+                            <div class="storyHead">
+                                The Longest journey in my life!
+                            </div>
+                            <div class="storyTextstyle">
+                                <span class="storyText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                                </span>
+                                <span class="storyTextlow">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... 
+                                </span>
+                                <span class="readMore">
+                                    Read More
+                                </span>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                    <button class="button buttonPosS4">
+                        <div class="buttonIMG">
+                            <img src="./images/bi_arrow-right.svg" alt="arrow">
+                        </div>
+                            See More
+                    </button>
+                </section>
+            </div>            
+        </main>
+        <footer class="footer">
+            <div class="footerContainer _container">
+                <div class="footerText">
+                    <div class="visibleFooterText">
+                        All Rights Reserved © Travel Portal
+                    </div>                    
+                    <ul class="footerLinkContainer">
+                        <li class="link">
+                            <a href="www.instagram.com"><img src="./images/akar-icons_instagram-fill.svg" alt="instagram"></a>
+                        </li>
+                        <li class="link">
+                            <a href="www.youtube.com"><img src="./images/akar-icons_video.svg" alt="youtube"></a>
+                        </li>
+                        <li class="link">
+                            <a href="www.twitter.com"><img src="./images/akar-icons_twitter-fill.svg" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>          
+    </div>
+    <script src="./index.js"></script> 
+
+</body>
+</html>
